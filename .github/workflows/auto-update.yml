@@ -9,6 +9,8 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       REPO: ${{ github.repository }}
       REPO_OWNER: ${{ github.repository_owner }}
