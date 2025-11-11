@@ -10,7 +10,7 @@ namespace SimpleYellowButtonApp
         {
             InitializeComponent();
             // Runtime text assignment
-            this.buttonWithResource.Text = "";
+            this.buttonWithResource.Text = "Runtime Text";
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -10,8 +10,8 @@ namespace SimpleYellowButtonApp
         {
             InitializeComponent();
             // More runtime assignments
-            this.okButton.Text = "";
-            this.cancelButton.Text = "";
+            this.okButton.Text = "OK";
+            this.cancelButton.Text = "Cancel";
         }
 
         private void okButton_Click(object sender, EventArgs e)

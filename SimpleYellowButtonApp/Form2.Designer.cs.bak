@@ -40,7 +40,7 @@ namespace SimpleYellowButtonApp
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(100, 40);
             this.okButton.TabIndex = 0;
-            this.okButton.Text = "";
+            this.okButton.Text = "Accept";
             this.okButton.UseVisualStyleBackColor = false;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
@@ -51,7 +51,7 @@ namespace SimpleYellowButtonApp
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(100, 40);
             this.cancelButton.TabIndex = 1;
-            this.cancelButton.Text = "";
+            this.cancelButton.Text = "Decline";
             this.cancelButton.UseVisualStyleBackColor = false;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -62,7 +62,7 @@ namespace SimpleYellowButtonApp
             this.applyButton.Name = "applyButton";
             this.applyButton.Size = new System.Drawing.Size(100, 40);
             this.applyButton.TabIndex = 2;
-            this.applyButton.Text = "";
+            this.applyButton.Text = "Apply Changes";
             this.applyButton.UseVisualStyleBackColor = false;
             // 
             // Form2
